@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-container {
+  width: 300px;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea,
+input {
+  width: 100%;
+  margin-bottom: 10px;
+    }
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#savedSnippets {
+  margin-top: 20px;
+}
+
+.snippetItem {
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid rgb(234, 205, 205);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.snippetItem span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.snippetItem button {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.snippetItem button:hover {
+  background-color: #d32f2f;
+}
